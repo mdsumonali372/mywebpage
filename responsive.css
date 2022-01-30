@@ -1,0 +1,646 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) { 
+
+
+    .hero-right-column {
+        padding: 30px 20px;
+        margin: auto;
+    }
+    
+    .hero-item {
+        width: 100%;
+    }
+    
+    .hero-item .hero-title {
+        font-size: 56px;
+    }
+
+    .hero-section::before {
+        transform: translate(-70%, -20%) rotate(54deg) scale(1.2);
+    }
+    
+    .hero-section::after {
+        transform: translate(-90%,-24%) rotate(64deg) scale(1.2);
+    }
+    
+    .img-div {
+        width: 100%;
+    }
+    .img-div img {
+        width: 160%;
+    }
+
+    .service-box {
+        height: 95%;
+    }
+
+    .best-deal-left-column {
+        width: 85%;
+    }
+    .best-deal-content {padding: 0;}
+    
+    .best-deal-left-column h2 {
+        font-size: 16px;
+    }
+    
+    .best-deal-right-column {
+        width: 15%;
+    }
+    
+    button.best-deal-btn {
+        width: 100%;
+    }
+    .consultingimg-content {
+        align-items: flex-end;
+    }
+    
+    .consulting-left-column {
+        padding-bottom: 30px;
+    }
+
+}
+
+/* 992px device */
+@media only screen and (max-width: 992px){
+
+    nav {flex-direction: column;align-items: flex-start; padding: 0;}
+
+    .logo {
+        justify-content: flex-start;
+    }
+    .mobile-menu{
+        visibility: visible;
+        background: yellow;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 50%;
+        right: 3%;
+        transform: translateY(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-menu ul {
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100%;
+    }
+    
+    .main-menu {
+        width: 100%;
+        height: auto;
+        display: none;
+        transition: all 0.5s ease;
+        background: #ccc;
+        background-color: rgba(255,255,255,0.2);
+        backdrop-filter: blur(16px);
+        box-shadow: 2px 2px 10px rgba(0,0,0, 0.5);
+    }
+
+    .mobile-menu i {
+        font-size: 25px;
+    }
+    
+    .main-menu ul li {
+        border: 2px solid #ffffff52;
+        width: 100%;
+        margin-top: 10px;
+        padding: 15px 45px;
+        transition: all 0.5s ease;
+    }
+    .main-menu ul li:hover {
+        width: 100%;
+        background: #000;
+    }
+    
+    .main-menu ul li:hover a {
+        color: #fff;
+    }
+    .hero-section{
+        padding-top: 10px;
+        height: 100vh;
+    }
+    .hero-body {
+        flex-direction: row;
+    }
+
+    .hero-left-column {
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+    }
+    .img-div {
+        width: 100%;
+    }
+    .img-div img {
+        width: 160%;
+    }
+    
+    .hero-right-column {
+        width: 50%;
+        padding: 10px 2px;
+        height: 100%;
+    }
+    
+    .hero-item .hero-title {
+        font-size: 48px;
+    }
+    .hero-button {
+        height: 32px;
+    }
+
+    .hero-section::after {
+    width: 37%;
+    height: 100%;
+    left: 10%;
+    top: 76%;
+    transform: translate(-90%,-24%) rotate(65deg) scale(1.2);
+    }
+    .hero-section::before {
+    width: 39%;
+    height: 80%;
+    left: 30%;
+    top: 80%;
+    transform: translate(-70%, -20%) rotate(60deg) scale(1.2);
+    }
+    /* end hero and header */
+
+    /* service part */
+    .service-box {
+        flex-direction: row;
+        position: inherit!important;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+    }
+    section.service-part {height: auto;}
+
+    .service-box-item {
+        width: 100%;
+        margin: 5px 3px;
+    }
+
+    .service-content {
+        margin: 50px 0;
+        padding: 0 40px;
+    }
+    .service-box-item:hover .service-box-content, p, a {
+        color: #fff;
+    }
+    
+    .service-box-item:hover {
+        transform: scale(1);
+        background: #000;
+    }
+
+    /* do you need  */
+    section.solution-part {height: 45vh;}
+
+.solution-content {
+    width: 100%;
+    padding: 40px;
+}
+.solution-content h1 {
+    font-size: 32px;
+    line-height: 54px;
+}
+button.solution-button {
+    width: 40%;
+}
+section.firm-part {
+    height: 100%;
+}
+.firmimg-content {
+    flex-direction: row;
+}
+
+.firm-content-column {
+    width: 50%;
+}
+
+.firm-content {
+    width: 100%;
+}
+
+.firm-content h2 {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.firm-content p {
+    margin-top: 20px;
+}
+.firm-img-column {
+    width: 50%;
+}
+.firm-img-column img{
+    width: 100%;
+}
+
+.best-deal-content {
+    flex-direction: column;
+}
+
+.best-deal-left-column {
+    flex-direction: column;
+    width: 100%;
+}
+.best-deal-left-column p {
+    margin-top: 10px;
+}
+
+.best-deal-right-column {
+    width: 60%;
+    margin-top: 20px;
+}
+section.best-deal {
+    height: 100%;
+}
+
+button.best-deal-btn {
+    width: 50%;
+    display: block;
+    margin: auto;
+    float: none;
+}
+
+.consulting-left-column {
+    width: 100%;
+}
+
+.consulting-left-column h2 {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.consulitng-right-column {
+    width: 100%;
+    padding-bottom: 0;
+}
+.consultingimg-content {
+    flex-direction: row;
+}
+
+.consulting-left-column p {
+    margin: 20px 0;
+}
+
+.consulitng-right-column img {
+    width: 100%;
+}
+
+    .client-logo {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 16px;
+    }
+    .client-part-title h1 {
+        font-size: 32px;
+    }
+
+    .client-logo img {
+        width: 75px;
+        margin-top: 10px;
+        margin-right: 15px;
+    }
+    
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
+/* Large devices (laptops/desktops, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+    .mobile-menu {
+        right: 4%;
+    }
+    .main-menu ul li:hover {
+        width: 100%;
+        background: #000;
+    }
+    
+    .main-menu ul li:hover a {
+        color: #fff;
+    }
+    .hero-body {
+        flex-direction: column-reverse;
+    }
+
+    .hero-left-column{
+        height: 60%;
+    }
+
+    .img-div {
+        width: 100%;
+        left: 40%;
+        transform: translateX(-60%);
+    }
+    .img-div img {
+        width: 100%;
+    }
+    
+    .hero-right-column {
+        width: 100%;
+        padding: 10px 20px;
+        height: 40%;
+    }
+    .hero-section::after {
+    width: 37%;
+    height: 100%;
+    left: 10%;
+    top: 76%;
+    transform: translate(-90%,-24%) rotate(73deg) scale(1.2);
+    }
+    .hero-section::before {
+    width: 39%;
+    height: 80%;
+    left: 30%;
+    top: 80%;
+    transform: translate(-70%, -20%) rotate(73deg) scale(1.2);
+    }
+    /* end hero and header */
+
+    /* service part */
+    .service-box{
+        flex-direction: column;
+    }
+    .service-box-item {
+        width: 100%;
+        margin: 5px 3px;
+    }
+
+    .service-content {
+        padding: 10px;
+    }
+    .service-box-item:hover {
+        transform: scale(1);
+        background: #000;
+    }
+    .service-button {
+        width: 100%;
+    }
+.solution-content {
+    width: 100%;
+    padding: 40px;
+}
+.firmimg-content {
+    flex-direction: column;
+}
+
+.firm-content-column {
+    width: 100%;
+}
+
+.firm-content {
+    width: 100%;
+}
+.firm-content p {
+    margin-top: 20px;
+}
+.firm-img-column {
+    width: 100%;
+}
+.best-deal-right-column {
+    width: 100%;
+    margin-top: 20px;
+}
+section.best-deal {
+    height: 30vh;
+}
+.consulitng-right-column {
+    padding-bottom: 50px;
+}
+
+.consultingimg-content {
+    flex-direction: column;
+}
+    .client-logo img {
+        width: 65px;
+        margin-right: 10px;
+    }
+}
+/* Medium devices (landscape tablets, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+    .mobile-menu {
+        right: 6%;
+    }
+ 
+    .main-menu ul li:hover {
+        background: #000;
+        width: 100%;
+    }
+    
+    .main-menu ul li:hover a {
+        color: #fff;
+    }
+    .hero-left-column {
+        margin-top: 10px;
+    }
+    .img-div {
+        width: 126%;
+        left: 40%;
+        transform: translateX(-60%);
+    }
+    .hero-section::after {
+        width: 65%;
+        height: 50%;
+        opacity: .5;
+        top: 68%;
+        left: 23%;
+        transform: translate(-77%, -32%) rotate(111deg) scale(1.2);
+    }
+    .hero-section::before {
+        width: 60%;
+        height: 100%;
+        top: 65%;
+        left: 6%;
+        transform: translate(-94%, -35%) rotate(118deg) scale(1.2);
+    }
+    /* end hero and header */
+
+    /* service part */
+    .service-box-item {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .service-box-item:hover {
+        transform: scale(1);
+        background: #000;
+    }
+
+    /* do you need  */
+    section.solution-part {height: 60vh;}
+
+.solution-content {
+    width: 100%;
+    padding: 15px;
+}
+.firm-content-column {
+    width: 100%;
+}
+
+.firm-content {
+    width: 100%;
+}
+.firm-content p {
+    margin-top: 20px;
+}
+section.best-deal {
+    height: 45vh;
+}
+
+    .client-logo {
+        flex-direction: column;
+    }
+    .client-logo img {
+        width: 100px;
+        margin: auto;
+    }
+    .footer-content {
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 450px and up) */
+@media only screen and (max-width: 450px) {
+
+    .hero-left-column {
+        height: 64%;
+        margin-top: 20px;
+    }
+    .img-div {
+        width: 160%;
+        left: 45%;
+        transform: translateX(-55%);
+    }
+    .hero-item .hero-title {
+        font-size: 32px;
+    }
+    .hero-section::after {
+        width: 65%;
+        height: 50%;
+        opacity: .5;
+        top: 70%;
+        left: 23%;
+        transform: translate(-77%, -30%) rotate(111deg) scale(1.2);
+    }
+    .hero-section::before {
+        width: 60%;
+        height: 100%;
+        top: 65%;
+        left: 6%;
+        transform: translate(-94%, -35%) rotate(118deg) scale(1.2);
+    }
+    /* end hero and header */
+
+    /* service part */
+    .service-box-item {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .service-box-item:hover {
+        transform: scale(1);
+        background: #000;
+    }
+
+    /* do you need  */
+    section.solution-part {height: 100%;}
+
+.solution-content {
+    width: 100%;
+    padding: 15px;
+}
+button.solution-button {
+    width: 50%;
+}
+.firm-content-column {
+    width: 100%;
+}
+
+.firm-content {
+    width: 100%;
+}
+.firm-content p {
+    margin-top: 20px;
+}
+section.best-deal {
+    height: 100%;
+}
+
+}
+
+/* Extra small devices (phones, 320 and down) */
+@media only screen and (max-width: 320px) {
+
+    .mobile-menu {
+        right: 10%;
+    }
+    .hero-left-column {
+        height: 58%;
+    }
+    .img-div {
+        width: 137%;
+        left: 37%;
+        transform: translateX(-63%);
+    }
+    .img-div img {
+        width: 120%;
+    }
+    .hero-section::after {
+        width: 65%;
+        height: 50%;
+        opacity: .5;
+        top: 58%;
+        left: 23%;
+        transform: translate(-77%, -32%) rotate(111deg) scale(1.2);
+    }
+    .hero-section::before {
+        width: 60%;
+        height: 100%;
+        top: 65%;
+        left: 6%;
+        transform: translate(-94%, -35%) rotate(118deg) scale(1.2);
+    }
+    /* end hero and header */
+
+    /* service part */
+    .service-box-item {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .service-box-item:hover {
+        transform: scale(1);
+        background: #000;
+    }
+
+    /* do you need  */
+    section.solution-part {height: 90vh;}
+
+.solution-content {
+    width: 100%;
+    padding: 10px;
+}
+.firm-content-column {
+    width: 100%;
+}
+
+.firm-content {
+    width: 100%;
+}
+.firm-content p {
+    margin-top: 20px;
+}
+section.best-deal {
+    height: 50vh;
+} 
+
+}
+
+/*  */
